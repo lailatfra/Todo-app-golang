@@ -1,4 +1,4 @@
-# Todo List - Backend API
+# Rest API Backend Todo-List
 
 REST API untuk aplikasi Todo List menggunakan Golang.
 
@@ -89,9 +89,3 @@ Server berjalan di `http://localhost:8080`
 - 201: Created
 - 400: Bad Request
 - 404: Not Found
-
-## Catatan
-
-- Data disimpan di memory (hilang saat restart)
-- CORS enabled untuk development
-- ID auto increment dari 1
