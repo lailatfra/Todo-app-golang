@@ -7,7 +7,7 @@ import (
 
 func RegisterRoutes(router *mux.Router) {
 	router.HandleFunc("/todos", handlers.GetTodos).Methods("GET")
-	router.HandleFunc("/todos/{id}", handlers.GetTodoByID).Methods("GET") // NEW
+	router.HandleFunc("/todos/{id}", handlers.GetTodoByID).Methods("GET") 
 	router.HandleFunc("/todos", handlers.CreateTodo).Methods("POST")
 	router.HandleFunc("/todos/{id}", handlers.UpdateTodo).Methods("PUT")
 	router.HandleFunc("/todos/{id}", handlers.DeleteTodo).Methods("DELETE")

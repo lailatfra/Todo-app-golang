@@ -27,7 +27,6 @@ func main() {
 	router := mux.NewRouter()
 	routes.RegisterRoutes(router)
 	
-	// Wrap with CORS middleware
 	handler := enableCORS(router)
 	
 	log.Println("Server starting on :8080")

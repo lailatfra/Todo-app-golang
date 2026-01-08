@@ -10,7 +10,6 @@ type Todo struct {
 	CreatedAt   time.Time `json:"created_at"`
 }
 
-// Request structs
 type CreateTodoRequest struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
